@@ -1,3 +1,9 @@
+//JavaScript Document
+
+console.log("Hello")
+
+
+
 (() => {
   console.log('svg script file laded');
   let svgs = document.querySelectorALL('svg');
@@ -7,3 +13,4 @@
    }
   svg.forEach(svg ==> svg.addEventListener('click',logThisSVG));
 })();
+

@@ -1,4 +1,14 @@
-main{
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+.clearfix:after{content:" ";visibility: hidden;display: block;height: 0;clear: both;}
+
+/*main{
   text-align:center;
 }
 .container{
@@ -8,4 +18,21 @@ main{
 .container img{
   display: block;
   width: 100%;
+}*/
+
+
+#iconNav li{float: left;width: 100px;margin-right: 50px;}
+#iconNav li  {list-style: none; }
+
+#iconNav li img:hover {filter: drop-shadow( 0 1px 1px);}
+#iconNav li img{display: block;transition: all .5s ease-in;}
+
+@media screen and (max-width:700px){
+   #iconNav li {width: 40px;}
+}
+
+#iconNav li:hover{width: 120px;}
+
+@media screen and (max-width:700px){
+   #iconNav li:hover {width: 50px;}
 }
