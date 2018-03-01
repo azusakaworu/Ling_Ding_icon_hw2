@@ -11,16 +11,16 @@
         console.log(this.id);
     }
 
-    function bigger(){
+ function bigger(){
        this.style.width="100%";
     }
 
-    function small(){
+ function small(){
       this.style.width= "40%";
     }
- svgs.forEach(svg => {
-	 svg.addEventListener("click",logThisSVG);
+ svgs.forEach(svg =>
+	 svg.addEventListener("click", logThisSvg);
 	 svg.addEventListener("mouseover", bigger);
-   svg.addEventListener("mouseout", small);
+   svg.addEventListener("mouseout", small));
 
 })();
