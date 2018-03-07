@@ -31,7 +31,7 @@
    #iconNav li {width: 40px;}
 }
 
-#iconNav li:hover{width: 120px;}
+/*#iconNav li:hover{width: 120px;}*/
 
 @media screen and (max-width:700px){
    #iconNav li:hover {width: 50px;}
